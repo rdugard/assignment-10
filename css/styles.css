@@ -1,0 +1,24 @@
+* {
+    -webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+}
+
+body {
+  background: #f45f42;
+  font-family: arial;
+}
+
+div {
+background: #c6a70b;
+padding: 1%;
+text-align: center;
+
+}
+
+@media (max-width: 768px) {
+div {
+  padding: 0;
+  margin: 0;
+  width: 90%;
+} }
